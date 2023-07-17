@@ -2,13 +2,266 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap&_v=20230717104018" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230717104018">
+    <title>LIM ED</title>
 </head>
-<body>
-<h1>Hello, this is my web page</h1>
-Hello, world!
+
+<body class="body ">
+    <div class="wrapper">
+        <header class="header">
+    <div class="header__container">
+        <div class="header__menu menu">
+            <a href="index.html" class="header__logo logo-header">
+                <img src="img/header-logo.svg" alt="" class="logo-header__image">
+            </a>
+            <nav class="menu__body">
+                <div class="menu__list">
+                    <li class="menu__item"><a href="old-collection.html" class="menu__link">ОСТАТКИ</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">FAQ</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">КОНТАКТЫ</a></li>
+                </div>
+            </nav>
+            <a href="#header" class="burger icon icon-menu"><span></span></a>
+            <a href="cart.html" class="header__cart cart-header">
+                <img src="img/header-cart.svg" alt="" class="cart-header__image">
+            </a>
+        </div>
+    </div>
+</header>
+        <main class="main">
+            <section class="first-screen">
+                <div class="first-screen__container">
+                    <div class="first-screen__content content-first-screan">
+                        <div class="content-first-screan__box">
+                            <div class="content-first-screan__img">
+                                <img src="img/logo-main.svg" alt="">
+                            </div>
+                            <div class="content-first-screan__text">
+                                Рисуем принты на культовые темы и создаём футболки с 2014 года.
+                            </div>
+                        </div>
+                        <a href="#" class="first-screen__arrow">
+                            <img src="img/arrow-main.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <picture><source srcset="img/first-screen-bg.webp" type="image/webp"><img src="img/first-screen-bg.png" alt="" class="first-screen__bg"></picture>
+                <picture><source srcset="img/first-screen-bg_adaptive.webp" type="image/webp"><img src="img/first-screen-bg_adaptive.png" alt="" class="first-screen__bg first-screen__bg_adaptive"></picture>
+                <img src="img/first-screen-bg_adaptive-2.png" alt=""
+                    class="first-screen__bg first-screen__bg_adaptive first-screen__bg_adaptive-mobile">
+            </section>
+            <section class="new-collection">
+                <div class="new-collection__container">
+                    <div class="new-collection__content">
+                        <h2 class="new-collection__title">новая коллекция</h2>
+                        <div class="new-collection__text">«Беги, форест, беги!»Новая коллекция с иллюстрацией из
+                            культовой картины “Форест Гамп”</div>
+                        <a href="new-collection.html" class="new-collection__btn">посмотреть</a>
+                    </div>
+                    <picture><source srcset="img/new-collection-forest.webp" type="image/webp"><img src="img/new-collection-forest.png" alt="" class="new-collection__bg"></picture>
+                </div>
+            </section>
+            <section class="remains">
+                <div class="remains__container">
+                    <h2 class="block__title remains__title">
+                        ОСТАТКИ С ПРОШЛЫХ КОЛЛЕКЦИЙ
+                    </h2>
+                    <div class="remains__content">
+                        <div class="remains__wrapper">
+                            <div class="remains__row">
+                                <div class="remains__item item-remains">
+                                    <div class="item-remains__img">
+                                        <picture><source srcset="img/t-shirt-TWIN.webp" type="image/webp"><img src="img/t-shirt-TWIN.png" alt=""></picture>
+                                    </div>
+                                    <div class="item-remains__name name-item-remains">
+                                        <h4 class="name-item-remains__title">
+                                            <span>ТВИН ПИКС</span> MODERN
+                                        </h4>
+                                        <div class="name-item-remains__sale">
+                                            15%
+                                        </div>
+                                    </div>
+                                    <div class="item-remains__price price-item-remains">
+                                        <div class="price-item-remains__current">1 150 ₽</div>
+                                        <div class="price-item-remains__before">1 350 ₽</div>
+                                    </div>
+                                </div>
+                                <div class="remains__item item-remains">
+                                    <div class="item-remains__img">
+                                        <picture><source srcset="img/t-shirt-MODERN.webp" type="image/webp"><img src="img/t-shirt-MODERN.png" alt=""></picture>
+                                    </div>
+                                    <div class="item-remains__name name-item-remains">
+                                        <h4 class="name-item-remains__title">
+                                            <span>ГРЯЗЬ</span> MODERN
+                                        </h4>
+                                        <div class="name-item-remains__sale">
+                                            15%
+                                        </div>
+                                    </div>
+                                    <div class="item-remains__price price-item-remains">
+                                        <div class="price-item-remains__current">1 150 ₽</div>
+                                        <div class="price-item-remains__before">1 350 ₽</div>
+                                    </div>
+                                </div>
+                                <div class="remains__item item-remains">
+                                    <div class="item-remains__img">
+                                        <picture><source srcset="img/t-shirt-NIGHTMARES.webp" type="image/webp"><img src="img/t-shirt-NIGHTMARES.png" alt=""></picture>
+                                    </div>
+                                    <div class="item-remains__name name-item-remains">
+                                        <h4 class="name-item-remains__title">
+                                            <span>КОШМАРЫ АИСТА МАРАБУ
+                                            </span> MODERN
+                                        </h4>
+                                        <div class="name-item-remains__sale">
+                                            15%
+                                        </div>
+                                    </div>
+                                    <div class="item-remains__price price-item-remains">
+                                        <div class="price-item-remains__current">1 150 ₽</div>
+                                        <div class="price-item-remains__before">1 350 ₽</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="remains__row">
+                                <div class="remains__item item-remains">
+                                    <div class="item-remains__img">
+                                        <picture><source srcset="img/t-shirt-MODERN.webp" type="image/webp"><img src="img/t-shirt-MODERN.png" alt=""></picture>
+                                    </div>
+                                    <div class="item-remains__name name-item-remains">
+                                        <h4 class="name-item-remains__title">
+                                            <span>ГРЯЗЬ</span> MODERN
+                                        </h4>
+                                        <div class="name-item-remains__sale">
+                                            15%
+                                        </div>
+                                    </div>
+                                    <div class="item-remains__price price-item-remains">
+                                        <div class="price-item-remains__current">1 150 ₽</div>
+                                        <div class="price-item-remains__before">1 350 ₽</div>
+                                    </div>
+                                </div>
+                                <div class="remains__item item-remains">
+                                    <div class="item-remains__img">
+                                        <picture><source srcset="img/t-shirt-NIGHTMARES.webp" type="image/webp"><img src="img/t-shirt-NIGHTMARES.png" alt=""></picture>
+                                    </div>
+                                    <div class="item-remains__name name-item-remains">
+                                        <h4 class="name-item-remains__title">
+                                            <span>КОШМАРЫ АИСТА МАРАБУ
+                                            </span> MODERN
+                                        </h4>
+                                        <div class="name-item-remains__sale">
+                                            15%
+                                        </div>
+                                    </div>
+                                    <div class="item-remains__price price-item-remains">
+                                        <div class="price-item-remains__current">1 150 ₽</div>
+                                        <div class="price-item-remains__before">1 350 ₽</div>
+                                    </div>
+                                </div>
+                                <div class="remains__item item-remains">
+                                    <div class="item-remains__img">
+                                        <picture><source srcset="img/t-shirt-TWIN.webp" type="image/webp"><img src="img/t-shirt-TWIN.png" alt=""></picture>
+                                    </div>
+                                    <div class="item-remains__name name-item-remains">
+                                        <h4 class="name-item-remains__title">
+                                            <span>ТВИН ПИКС</span> MODERN
+                                        </h4>
+                                        <div class="name-item-remains__sale">
+                                            15%
+                                        </div>
+                                    </div>
+                                    <div class="item-remains__price price-item-remains">
+                                        <div class="price-item-remains__current">1 150 ₽</div>
+                                        <div class="price-item-remains__before">1 350 ₽</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="remains__button">
+                            <a href="old-collection.html" class="block__btn ">смотреть всё</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="reviews">
+                <div class="reviews__container">
+                    <div class="reviews__content">
+                        <div class="reviews__box">
+                            <div class="reviews__body">
+                                <div class="reviews__decor reviews__decor_1">
+                                    <picture><source srcset="img/reviews-decor.webp" type="image/webp"><img src="img/reviews-decor.png" alt=""></picture>
+                                </div>
+                                <div class="reviews__text-section text-section-reviews">
+                                    <div class="text-section-reviews__text">
+                                        Рисуем принты на культовые темы и создаём футболки с 2014 года.
+                                    </div>
+                                    <div class="text-section-reviews__button">
+                                        <a href="#" class="block__btn block__btn_black reviews-btn">отзывы</a>
+                                    </div>
+                                </div>
+                                <div class="reviews__decor reviews__decor_2">
+                                    <picture><source srcset="img/reviews-decor.webp" type="image/webp"><img src="img/reviews-decor.png" alt=""></picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+    <div class="footer__container">
+        <div class="footer__wrapper">
+            <div class="footer__content">
+                <div class="footer__column column-footer">
+                    <h3 class="column-footer__title">адрес:</h3>
+                    <div class="column-footer__location location-footer ">
+                        <div class="location-footer__img">
+                            <img src="img/footer-location.svg" alt="">
+                        </div>
+                        <div class="column-footer__text location-footer__text">
+                            Москва, Ольховская улица, 14с5
+                        </div>
+                    </div>
+                    <div class="column-footer__social social-footer">
+                        <div class="social-footer__img">
+                            <img src="img/telegram.svg" alt="">
+                        </div>
+                        <div class="social-footer__img">
+                            <img src="img/instagram.svg" alt="">
+                        </div>
+                        <div class="social-footer__img">
+                            <img src="img/vk.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__column column-footer">
+                    <h3 class="column-footer__title">как пройти:</h3>
+                    <div class="column-footer location-footer ">
+                        <div class="column-footer__text">
+                            м. Красносельская / Бауманская, "Авиатор"Синий 2х этажный дом, вход сразу с Ольховской.
+                            На домофоне кнопка lim_ed
+                            До конца коридора, комната 8
+                        </div>
+                        <div class="footer-credits footer-credits_adaptive">
+                            © 2014-2023 Limited T-Shirt Edition. <span>"Политика обработки персональных данных"</span>
+                            ИП БЕЛОВ Д.М. ОГРНИП 314774609800073
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-credits">
+            © 2014-2023 Limited T-Shirt Edition. <span>"Политика обработки персональных данных"</span>
+            ИП БЕЛОВ Д.М. ОГРНИП 314774609800073
+        </div>
+    </div>
+</footer>
+    </div>
+    <script src="js/app.min.js?_v=20230717104018"></script>
 </body>
+
 </html>

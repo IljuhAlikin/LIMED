@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap&_v=20230717104018" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230717104018">
+    <title>LIM ED</title>
+</head>
+
+<body class="body">
+    <div class="wrapper">
+        <header class="header header_black" id="header">
+    <div class="header__container">
+        <div class="header__menu menu">
+            <a href="index.html" class="header__logo logo-header">
+                <img src="img/header-logo-white.svg" alt="" class="logo-header__image logo-header__image_black">
+            </a>
+            <nav class="menu__body">
+                <div class="menu__list">
+                    <li class="menu__item"><a href="old-collection.html" class="menu__link menu__link_black">ОСТАТКИ</a>
+                    </li>
+                    <li class="menu__item"><a href="#" class="menu__link menu__link_black">FAQ</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link menu__link_black">КОНТАКТЫ</a></li>
+                </div>
+            </nav>
+            <a href="#header" class="burger burger_white icon icon-menu"><span></span></a>
+            <a href="cart.html" class="header__cart cart-header">
+                <img src="img/header-cart-white.svg" alt="" class="cart-header__image cart-header__image_black">
+            </a>
+        </div>
+    </div>
+</header>
+        <main class="main">
+            <section class="cart section">
+                <div class="cart__container">
+                    <div class="cart__content">
+                        <h2 class="block__title cart__title">
+                            корзина
+                        </h2>
+                        <div class="cart__body">
+                            <div class="cart__order_adaptive cart-order-adaptive">
+                                <div class="cart-order-adaptive__body">
+                                    <div class="cart-order-adaptive__column info-order-cart__column">
+                                        <div class="cart-order-adaptive__name">К ОФОРМЛЕНИЮ:</div>
+                                        <div class="cart-order-adaptive__value">
+                                            <div class="amount__num">1</div>
+                                            <div class="amount__text">ТОВАР</div>
+                                        </div>
+                                    </div>
+                                    <div class="cart-order-adaptive__column info-order-cart__column">
+                                        <div class="cart-order-adaptive__name">НА СУММУ:</div>
+                                        <div class="cart-order-adaptive__value info-order-cart__sum">1350
+                                            <span>₽</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart__catalog catalog-cart">
+                                <div class="catalog-cart__img">
+                                    <picture><source srcset="img/cart-purchase.webp" type="image/webp"><img src="img/cart-purchase.png" alt=""></picture>
+                                </div>
+                                <div class=" cart__table-block">
+                                    <div class="catalog-cart__text">
+                                        <h4 class="catalog-cart__name">футболка <span>“грязь”</span> modern</h4>
+                                        <div class="catalog-cart__price">1350 <span>₽</span> </div>
+                                        <div class="table-block__row catalog-cart__row">
+                                            <a href="#"
+                                                class="table-block__item table-block_color black table-block_color_active">
+                                            </a>
+                                            <a href="#" class="table-block__item table-block_color white">
+                                            </a>
+                                            <a href="#" class="table-block__item table-block_color green">
+                                            </a>
+                                            <a href="#" class="table-block__item table-block_color brown">
+                                            </a>
+                                            <a href="#" class="table-block__item table-block_color gray">
+                                            </a>
+                                        </div>
+                                        <div class="catalog-cart__controls">
+                                            <div class="catalog-cart__params params-catalog-cart">
+                                                <div class="params-catalog-cart__item">
+                                                    <div class="params-catalog-cart__name">
+                                                        размер:
+                                                    </div>
+                                                    <div class="params-catalog-cart__value">
+                                                        L
+                                                    </div>
+                                                </div>
+                                                <div class="params-catalog-cart__item item-long">
+                                                    <div class="params-catalog-cart__name">
+                                                        кол-во:
+                                                    </div>
+                                                    <div class="params-catalog-cart__amount">
+                                                        <a href="#"
+                                                            class="params-catalog-cart__btn params-catalog-cart__btn_minus">-</a>
+                                                        <div class="params-catalog-cart__number">1</div>
+                                                        <a href="#"
+                                                            class="params-catalog-cart__btn params-catalog-cart__btn_plus">+</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="catalog-cart__bin">
+                                                <img src="img/bin.svg" alt="">
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="catalog-cart__checkbox">
+                                    <input type="checkbox" id="check">
+                                </div>
+                            </div>
+                            <div class="cart__order order-cart">
+                                <div class="order-cart__body">
+                                    <div class="order-cart__info info-order-cart">
+                                        <div class="info-order-cart__column">
+                                            <div class="info-order-cart__amount">
+                                                1
+                                            </div>
+                                            <div class="info-order-cart__text">товар на сумму:</div>
+                                        </div>
+                                        <div class="info-order-cart__column">
+                                            <div class="info-order-cart__sum">
+                                                1350 <span>₽</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="order-cart__line"></div>
+                                    <a href="payment.html" class="order-cart__btn block__btn">заказать</a>
+                                </div>
+                            </div>
+                            <a href="payment.html"
+                                class="order-cart__btn block__btn order-cart__bt_adaptive">заказать</a>
+                        </div>
+                    </div>
+            </section>
+        </main>
+        <footer class="footer">
+    <div class="footer__container">
+        <div class="footer__wrapper">
+            <div class="footer__content">
+                <div class="footer__column column-footer">
+                    <h3 class="column-footer__title">адрес:</h3>
+                    <div class="column-footer__location location-footer ">
+                        <div class="location-footer__img">
+                            <img src="img/footer-location.svg" alt="">
+                        </div>
+                        <div class="column-footer__text location-footer__text">
+                            Москва, Ольховская улица, 14с5
+                        </div>
+                    </div>
+                    <div class="column-footer__social social-footer">
+                        <div class="social-footer__img">
+                            <img src="img/telegram.svg" alt="">
+                        </div>
+                        <div class="social-footer__img">
+                            <img src="img/instagram.svg" alt="">
+                        </div>
+                        <div class="social-footer__img">
+                            <img src="img/vk.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__column column-footer">
+                    <h3 class="column-footer__title">как пройти:</h3>
+                    <div class="column-footer location-footer ">
+                        <div class="column-footer__text">
+                            м. Красносельская / Бауманская, "Авиатор"Синий 2х этажный дом, вход сразу с Ольховской.
+                            На домофоне кнопка lim_ed
+                            До конца коридора, комната 8
+                        </div>
+                        <div class="footer-credits footer-credits_adaptive">
+                            © 2014-2023 Limited T-Shirt Edition. <span>"Политика обработки персональных данных"</span>
+                            ИП БЕЛОВ Д.М. ОГРНИП 314774609800073
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-credits">
+            © 2014-2023 Limited T-Shirt Edition. <span>"Политика обработки персональных данных"</span>
+            ИП БЕЛОВ Д.М. ОГРНИП 314774609800073
+        </div>
+    </div>
+</footer>
+
+    </div>
+    <script src="js/app.min.js?_v=20230717104018"></script>
+
+</body>
+
+</html>
